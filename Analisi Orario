@@ -1,0 +1,20 @@
+Analisi
+
+Dati condivisi:
+- vettore di professori contenente in ogni cella una stringa composta dal professore e il suo orario
+
+Thread: 
+Basta solamente un thread
+- Thread1 -> cerca nel vettore le ore del professore 1 nella classe indicata
+- Thread2 -> cerca nel vettore le ore del professore 2 nella classe indicata
+- Thread3 -> cerca nel vettore le ore del professore 3 nella classe indicata
+- Thread4 -> cerca nel vettore le ore del professore 4 nella classe indicata
+- Thread5 -> cerca nel vettore le ore del professore 5 nella classe indicata
+- Thread6 -> cerca nel vettore le ore del professore 6 nella classe indicata
+- Thread7 -> cerca nel vettore le ore del professore 7 nella classe indicata
+
+
+Mutua esclusione:
+L'accesso al vettore orario deve essere in mutua esclusione
+
+Sincronizzazione:
